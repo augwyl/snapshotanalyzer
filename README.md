@@ -13,4 +13,7 @@ Analyzer uses the configuration file created by the AWS CLI. e.g:
 
 ## Running
 
-`pipenv run python analyzer/analyzer.py`
+`pipenv run python analyzer/analyzer.py <command> <--project=PROJECT>`
+
+*command* is list, start, or stop'
+*project* is optional
